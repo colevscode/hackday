@@ -13,7 +13,7 @@ export default function (props) {
     setServerState({ submitting: true, submitted: false, error: false });
 
     // TODO: Replace the endpoint below with one created at
-    // https://formspree.io/create
+    // https://formspree.io, or use whatever you want.
 
     fetch("https://formspree.io/mddryokm", {
       method: "POST",
