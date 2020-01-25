@@ -8,10 +8,7 @@ class Layout extends React.Component {
       <>
         <div className="image-bg" />
         <div className="site-frame">
-          <div className="content">
-            <h1>It's a Hack Day!<br/>Wanna come?</h1>
-              <Survey />
-          </div>
+          <Survey/>
         </div>
       </>
     );

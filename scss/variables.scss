@@ -1,7 +1,7 @@
 $primary-color: #E3E3DA;
 $type-color: #F9F9F8;
-$placeholder-color: darken(#F9F9F8, 20%);
-$line-color: darken(#F9F9F8, 20%);
+$placeholder-color: darken(#F9F9F8, 30%);
+$line-color: $placeholder-color;
 
 /* ------------------------------------------------------------------------- *
  * FONTS

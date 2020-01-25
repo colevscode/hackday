@@ -10,8 +10,8 @@
   },
   "dependencies": {
     "detect-browser": "^3.0.1",
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0"
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.4",
