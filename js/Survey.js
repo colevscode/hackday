@@ -42,7 +42,7 @@ export default function (props) {
       className="content" 
       style={
         (serverState.submitted && !serverState.error) 
-          ? {top: "-1000px"} : {}
+          ? {marginTop: "-1000px"} : {}
     }>
     <h1>It's a Hack Day!<br/>Wanna come?</h1>
     <form onSubmit={handleSubmit}>
