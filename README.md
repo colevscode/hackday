@@ -1,3 +1,5 @@
+![Build and Deploy](https://github.com/colevscode/hackday/workflows/Build%20and%20Deploy/badge.svg)
+
 # hackday-site
 A single page site using react. It contains a survey. Uses the awesome [Parcel.js](https://parceljs.org/) to obviate all thinking.
 
