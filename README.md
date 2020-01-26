@@ -5,9 +5,14 @@ A single page site using react. It contains a survey. Uses the awesome [Parcel.j
 
 1. `npm install`
 2. `npm start` for some deving.
-3. Update the `action` in `js/Survey.js` to send your submits wherever.
+3. Update the URL in `js/Survey.js` to send your submits wherever. (I'm using [formspree.io](https://formspree.io))
+4. (this is annoying) Create a deploy key for your repo by: 
+    a. Running:
+        ```ssh-keygen -t rsa -b 4096 -C "youremailhere@example.com" -N "" -f deploykey```
+    b. Creating a new Deploy Key and paste the content of `deploykey.pub` into the box. Be sure to click *Allow Write Access*. 
     
-    (Sign up at [formspree.io](https://formspree.io) to eliminate more thinkng.)
+    
+    c. Now create a new secret called `DEPLOY_KEY`, and paste the private key into that box. 
 
 4. `git push origin master` (this also deploys to `gh_pages` using `JamesIves/github-pages-deploy-action`)
 5. Turn on Github Pages by choosing the `gh_pages` publishing source. ([docs](https://help.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site))
