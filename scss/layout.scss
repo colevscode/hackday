@@ -16,12 +16,18 @@ body,
   background: url("../img/spacecat.jpg");
   background-size: 120% auto;
   background-position: 95% 40%;
+
+  @media only screen and (max-width: 800px) {
+    & {
+      background-position: 95% 10%;
+    }
+  }
 }
 
 .site-frame {
   position: relative;
   margin: 0 auto;
-  min-width: 800px;
+  min-width: 450px;
 }
 
 .content {
@@ -32,6 +38,14 @@ body,
   padding: 50px;
   background: rgba(0, 0, 0, 0.85);
   transition: top 2s;
+
+  @media only screen and (max-width: 800px) {
+    & {
+      top: 30%;
+      left: 10%;
+      width: 60%;
+    }
+  }
 
   h1,
   h2,
