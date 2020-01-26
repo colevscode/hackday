@@ -14,9 +14,8 @@ A single page site using react. It contains a survey. Uses the awesome [Parcel.j
     3. Now create a new secret called `DEPLOY_KEY`, and paste the private key into that box. 
         ![adding secret](docs/addsecret.png)    
         
-    Why is this required? Because `GITHUB_TOKEN` doesn't work. [See here](https://github.community/t5/GitHub-Actions/Github-action-not-triggering-gh-pages-upon-push/m-p/31266).
+    (*Why is this required? Because `GITHUB_TOKEN` doesn't work. [See here](https://github.community/t5/GitHub-Actions/Github-action-not-triggering-gh-pages-upon-push/m-p/31266).*)
     
-4. `git push origin master` (this also deploys to `gh_pages` using `JamesIves/github-pages-deploy-action`)
-5. Turn on Github Pages by choosing the `gh_pages` publishing source. ([docs](https://help.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site))
+4. Finally, turn on Github Pages by choosing the `gh_pages` publishing source. ([docs](https://help.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site))
 
 Yay your site is live at `https://github.com/username/repo`!
