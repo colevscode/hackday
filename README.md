@@ -23,4 +23,4 @@ See: https://colevscode.github.io/hackday/
 4. Finally, `git push origin master`! (this also deploys to `gh_pages` using `JamesIves/github-pages-deploy-action`)
 
 
-**Yay your site is live at `https://github.com/username/repo`!**
+**Yay your site is live at `https://username.github.com/repo`!**
